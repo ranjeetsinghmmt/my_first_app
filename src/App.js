@@ -14,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <h3>TODOS</h3>
      <CreateTodo onSubmit=  {addTodos}/>
      <Todolist todItems={todos} />
     </div>
